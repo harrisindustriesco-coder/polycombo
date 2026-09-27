@@ -14,6 +14,10 @@ It reads public data only and never places orders.
 - `/combo Lakers ML, Chiefs ML`: live prices, your estimates, fees, stake size, simulation
 - `/reality 10x at 90%`: checks whether a goal is possible
 
+These also ship as Claude Skills (`.claude/skills/slate`, `.claude/skills/combo`,
+`.claude/skills/reality`) with the same behavior, for clients that discover skills instead of
+slash commands.
+
 ## Or run directly
 ```
 python -m polycombo games nba
